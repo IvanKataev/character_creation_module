@@ -6,15 +6,16 @@ print(message)
 
 
 def calculateSquareRoot(Number: float) -> float:
-    """ Вычисляет квадратный корень"""
+    """Вычисляет квадратный корень."""
     return sqrt(Number)
 
 
 def calc(your_number: float) -> None:
+    """Выводит сообщение о вычислениях."""
     if your_number <= 0:
         return
-    print(f"Мы вычислили квадратный корень из введённого вами числа. "
-          f"Это будет: {calculateSquareRoot(your_number)}")
+    print(f'Мы вычислили квадратный корень из введённого вами числа. '
+          f'Это будет: {calculateSquareRoot(your_number)}')
 
 
 print(message)
